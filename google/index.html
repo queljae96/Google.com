@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .logo{
+            width: 270px;
+            margin-top:70px;
+            margin-bottom: 30px;
+        }
+
+        .links{
+            margin:20px;
+            text-align: end;
+        }
+        
+        
+        .apps{
+            text-decoration:none;
+            padding-right: 15px;
+            color:black;
+            font-size:13px;
+        }
+
+        .apps:hover{
+            text-decoration:underline;
+        }
+
+        .login{
+            background:rgb(55, 111, 233);
+            padding:10px 25px;
+            border-radius:5px;
+            color:#fff;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .login:hover{
+            background: rgb(88, 132, 226);
+        }
+
+        .googleimg{
+            text-align:center;
+        }
+
+        .barra{
+            background:rgb(255, 255, 255);
+            border:1px solid rgb(205, 204, 204);
+            padding:8px;
+            border-radius:27px;
+            display:inline-flex;
+        }
+
+        .pesquisa{
+            text-align:center;
+            background:rgb(255, 255, 255);
+            margin-bottom: 50px;
+        }
+        
+        .form {
+            background-color:blueviolet;
+            border:1px solid black;
+        }
+
+        form div{
+            display:inline-flex;
+        }
+
+        .lupa{
+            width:22px;
+            padding-right: 10px;
+            padding-left: 7px;
+
+        }
+
+        .input{
+            display: flex;
+           
+        }
+
+        input{
+            width:350px;
+            padding-right: 3px;
+            padding-left: 3px;
+            border:none;
+            outline:none;
+            padding: 0;
+            background:rgb(255, 255, 255);
+            
+        }
+        
+        .microfone{
+            width:22px;
+            padding-left: 20px;
+            padding-right: 5px;
+        }
+
+
+
+        .botoes{
+            margin: 0px;
+            text-align: center;
+        }
+
+        .botoes a{
+            margin:4px;
+            color:black;
+            text-decoration: none;
+            background:rgb(250, 249, 249);
+            padding:12px 20px;
+            border-radius:4px;
+            font-size:13px;
+            text-align: center;
+        }
+
+        .botoes a:hover{
+            border:1px solid rgb(220, 220, 220)
+        }
+
+        .mensagem{
+            text-align:center;
+            font-size:14px;
+            margin-bottom:200px;
+            margin-top:30px;
+        }
+
+        .mensagem a{
+            text-decoration:none;
+            color:rgb(21, 82, 237);
+        }
+
+        .mensagem a:hover{
+            text-decoration:underline;
+        }
+
+        .brasil{
+            display:flex;
+            padding: 15px;
+            background-color: rgb(243, 243, 243);
+            color:rgb(133, 133, 133);
+        }
+
+        .cabeçalho{
+            background-color: rgb(243, 243, 243);
+            padding:23px;
+            font-size:14px;
+            border-top:0.1em solid rgb(203, 202, 202);;
+        }
+
+        .cabeçalho a{
+            padding:12px;
+            color:rgb(118, 116, 116);
+            text-decoration: none;
+            padding: 15px;
+            text-align:center;
+        }
+
+        .cabeçalho a:hover{
+            text-decoration: underline;
+        }
+        
+       .box{
+           display:none;
+       }
+    </style>
+</head>
+<body>
+   
+    <div class="links">
+        <a  class="apps"href="gmail.com">Gmail</a>
+        <a class="apps"href="https://images.google.com.br/imghp?source=mog&gl=br&gws_rd=ssl">Imagens</a>
+        <a class="login" href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">Fazer login</a>
+    </div>
+    
+    <div class="googleimg">
+        <img class="logo" src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" alt="">
+    </div>
+  
+    <div class="pesquisa">
+        <form action="#" method="post">
+            <div class="barra">
+                <div class="lupa2">
+                    <a href="https://www.google.com.br/"><img class="lupa" src="img/lupa (2).png" alt=""></a>
+                </div>
+                <div class="input">
+                    <input type="textarea" name="search" id="search" >
+                </div>
+                <div class="pesqporvoz">
+                    <a  ><img class="microfone" src="img/voz-do-google.png" alt=""></a>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+    
+
+    <div class="botoes">
+        <a href="https://www.google.com.br/">Pesquisa Google</a>
+        <a href="https://www.google.com/doodles">Estou com sorte</a>
+    </div>
+
+    <div class="mensagem">
+        <p><a href="https://www.google.com/intl/pt-BR/photos/about/">Google fotos</a> O lugar perfeito para guardar suas recordações</p>
+    </div>
+
+    <p class="brasil">Brasil</p>
+
+    <div class="cabeçalho">
+                <a href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre</a>
+                <a href="https://ads.google.com/intl/pt-BR_br/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000105-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidade</a>
+                <a href="https://smallbusiness.withgoogle.com/intl/pt-BR_br/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=BR#!/">Negócios</a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1">Como funciona a pesquisa</a>
+                <a href="https://policies.google.com/privacy?hl=pt-BR&fg=1">Privacidade</a>
+                <a href="https://policies.google.com/terms?hl=pt-BR&fg=1">Termos</a>
+                <a href="https://www.google.com/intl/pt-BR/account/about/">Configurações</a>
+    </div>
+    
+    <script>
+
+      function acao(){
+          var box=document.querySelector('.box');
+          box.style.display="inline";
+      }
+
+      
+    </script>
+
+</body>
+</html>
